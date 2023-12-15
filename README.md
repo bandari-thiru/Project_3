@@ -29,7 +29,7 @@
 
    To get started with BizCardX Data Extraction, follow the steps below:
 
-- Install the required libraries using the pip install command. Streamlit, mySQLite.connector, pandas, easyocr.
+- Install the required libraries using the pip install command. Streamlit, SQLite.connector, pandas, easyocr.
    
       pip install [Name of the library]
 
@@ -45,7 +45,7 @@
 
 - The classified data is displayed on screen which can be further edited by user based on requirement.
 
-- On Clicking **Upload to Database Button** the data gets stored in the MySQLite Database. (Note: Provide respective host, user, password, database name in create_database, SQLite_table_creation and connect_database for establishing connection.)
+- On Clicking **Upload to Database Button** the data gets stored in the SQLite Database. (Note: Provide respective host, user, password, database name in create_database, SQLite_table_creation and connect_database for establishing connection.)
 
 - Further with the help of **MODIFY** menu the uploaded data’s in SQLite Database can be accessed for **Read, Update and Delete** Operations.
 
