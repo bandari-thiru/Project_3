@@ -35,7 +35,7 @@
 
 - Execute the **“BizCard.py”** using the streamlit run command.
 
-      streamlit run BizCard.py.py
+      streamlit run BizCard.py
 
 - A webpage is displayed in browser, I have created the app with three menu options namely **HOME, UPLOAD & EXTRACT, MODIFY** where user has the option to upload the respective Business Card whose information has to be **extracted, stored, modified or deleted** if needed.
 
