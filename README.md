@@ -48,3 +48,26 @@
 - On Clicking **Upload to Database Button** the data gets stored in the MySQLite Database. (Note: Provide respective host, user, password, database name in create_database, SQLite_table_creation and connect_database for establishing connection.)
 
 - Further with the help of **MODIFY** menu the uploaded data’s in SQLite Database can be accessed for **Read, Update and Delete** Operations.
+
+- ## Project Work-Around
+- While running the BizCar.py file in laptop the system throwing the error called "Using CPU. Note: This module is much faster with a GPU.", this program required much resource with grapic card in the laptop or desktop. Hence, the alternative work around found in google colab and find the steps below:-
+- 
+- Step 1:  Create a .ipynb file in the google colab give some name.
+- Step 2:  Import all the packages one by one.
+- Step 3:  Paste entire code from BizCard.py and write this line very fist before imports "%%writefile BizCard.py" and run the file.
+- Step 4:  Create seperate code cell and write this line "!wget -q -o i ipv4.icanhazip.com" and run.
+- Step 5:  Create seperate code cell and write this line "!streamlit run BizCard.py & npx localtunnel --port 8501" and run.
+- Step 6:  You can find the below output and click the link and give the ip address which found in teh "External URL:" in the new pop tab.
+
+-          [..................] \ fetchMetadata: sill resolveWithNewModule localtunnel@2.0
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://172.28.0.12:8501
+  External URL: http://34.74.46.60:8501
+
+npx: installed 22 in 2.856s
+your url is: https://polite-lemons-dig.loca.lt
+
