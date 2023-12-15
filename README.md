@@ -51,7 +51,7 @@
 
 - ## Project Work-Around
 - While running the BizCar.py file in laptop the system throwing the error called "Using CPU. Note: This module is much faster with a GPU.", this program required much resource with grapic card in the laptop or desktop. Hence, the alternative work around found in google colab and find the steps below:-
-- 
+ 
 - Step 1:  Create a .ipynb file in the google colab give some name.
 - Step 2:  Import all the packages one by one.
 - Step 3:  Paste entire code from BizCard.py and write this line very fist before imports "%%writefile BizCard.py" and run the file.
