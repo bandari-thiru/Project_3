@@ -57,7 +57,7 @@
 - Step 3:  Paste entire code from BizCard.py and write this line very fist before imports "%%writefile BizCard.py" and run the file.
 - Step 4:  Create seperate code cell and write this line "!wget -q -o i ipv4.icanhazip.com" and run.
 - Step 5:  Create seperate code cell and write this line "!streamlit run BizCard.py & npx localtunnel --port 8501" and run.
-- Step 6:  You can find the below output and click the link and give the ip address which found in teh "External URL:" in the new pop tab.
+- Step 6:  You can find the below output and click the link and give the ip address which found in the "External URL:" in the new pop tab.
 
 -          [..................] \ fetchMetadata: sill resolveWithNewModule localtunnel@2.0
 Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
